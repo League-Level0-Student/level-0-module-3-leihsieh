@@ -8,8 +8,9 @@ public class YearsAlive {
 		
 		String year = JOptionPane.showInputDialog("What year were you born?");
 		int yearInt = Integer.parseInt(year);
-		JOptionPane.showMessageDialog(null, yearInt + 1);
-		
+		for(int i = yearInt; i<=2020; i++) {
+		JOptionPane.showMessageDialog(null, yearInt++);
+		}
 	}
 	
 }

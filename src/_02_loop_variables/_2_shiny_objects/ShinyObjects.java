@@ -12,6 +12,7 @@ public class ShinyObjects {
 	public static void main(String[] args) {
 		
 		// 1. Call the method below to play the sound
+		playMisterZee();
 		// 2. Ask the user how many shiny objects they want
 		// 3. Play the sound that many times
 
