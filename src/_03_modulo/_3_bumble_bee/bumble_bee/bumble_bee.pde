@@ -1,4 +1,5 @@
-
+int x = 0;
+int y = 0;
 void setup() {
      ellipseMode(CENTER);
      size(500, 500);
@@ -15,8 +16,21 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use modulo to make the colors alternate between yellow and black
 */
-
-
+for(int i = 0; i < 10; i++){
+  
+  circle(x,y,50);
+  x+=25;
+  y+=25;
+  if(x % 50 == 0){
+    fill(#E9FF03);
+  }
+  else{
+    fill(0,0,0);
+  }
+  
+  
+}
+  drawBeeFace(475,475);
 
 /*
 Now put his head on using drawBeeFace(x,y)

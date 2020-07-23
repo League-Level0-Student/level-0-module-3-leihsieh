@@ -21,6 +21,29 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
-
+	public static void main(String[] args) {
+		
+	int num = 1;
+	for(int i = 0; i <20; i++) {
+		if(num % 3 == 0 && num % 5 ==0) {
+			System.out.println("fizzbuzz");		
+		}
+	
+		else if(num % 5 == 0) {
+			System.out.println("buzz");
+		}
+		
+		else if(num % 3 == 0) {
+			System.out.println("fizz");
+		}
+		else {
+			System.out.println(num);		
+		}
+		
+	num++;
+		
+		}
+	}
 }
+
 
